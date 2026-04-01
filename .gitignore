@@ -1,2 +1,19 @@
 # Dossier des providers téléchargés (très lourd)
 .terraform/
+
+# Fichiers d'état (contiennent des données sensibles)
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Plan binaire
+*.tfplan
+tfplan
+
+# Variables avec secrets
+*.tfvars
+*.tfvars.json
+
+# Fichiers de lock OS
+.DS_Store
+Thumbs.db
