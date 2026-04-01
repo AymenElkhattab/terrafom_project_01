@@ -17,3 +17,4 @@ tfplan
 # Fichiers de lock OS
 .DS_Store
 Thumbs.db
+token.txt
