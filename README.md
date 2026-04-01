@@ -6,11 +6,14 @@
 .
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml        # Pipeline GitHub Actions
+│       └── deploy.yml et destroy.yml        # Pipeline GitHub Actions
 └── terraform/
     ├── main.tf               # Ressources AWS (EC2, Security Group, AMI)
     ├── variables.tf          # Variables configurables
     └── outputs.tf            # Sorties (IP, DNS, commande SSH)
+
+
+
 ```
 
 ---
